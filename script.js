@@ -21,7 +21,7 @@ function calculateResult(){
     }
     catch{
         alert("Wrong Input of numbers")
-        document.getElementById('resul').value=''
+        document.getElementById('result').value=''
     }
 }
 
