@@ -5,12 +5,8 @@
 }
 body{
     background-image: url('colorful.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 h1{
-    padding: 60px 0 30px 0;
     text-shadow: 3px 3px 1px rgba(238, 130, 238, 0.751);
     font-size: 45px;
     font-family: italic;
@@ -21,6 +17,7 @@ h1{
     justify-content: center;
     flex-direction: column;
     row-gap: 20px;
+    padding: 30px 0 25px 0;
 }
 #result{
     height: 50px;
