@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('colorful.avif');
+
+}
+h1{
+    text-shadow: 3px 3px 1px rgba(238, 130, 238, 0.751);
+    font-size: 45px;
+    font-family: italic;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#result{
+    height: 50px;
+    width: 340px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.756);
+    color: white;
+    font-family: italic;
+
+}
+
+#calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 5px;
+    border: 2px solid rgb(20, 19, 19);
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 35%;
+    background-color: rgba(0, 0, 0, 0.756);
+    color: white;
+    border: none;
+    flex-direction: column;
+    font-size: 24px;
+    column-gap: 20px;
+    box-shadow: 2px 2px 8px rgb(30, 19, 186);
+    font-family: italic;
+}
+button:hover{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.buttons{
+    display: flex;
+    column-gap: 22px;
+    row-gap: 20px;
+}
+
+    
