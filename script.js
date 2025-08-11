@@ -20,7 +20,7 @@ function calculateResult(){
     document.getElementById('result').value = answer
     }
     catch{
-        alert="Wrong Input of numbers"
+        alert("Wrong Input of numbers")
         document.getElementById('resul').value=''
     }
 }
